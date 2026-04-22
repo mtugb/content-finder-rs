@@ -15,6 +15,12 @@ $ cfind "export async function GET"
 $ cfind "export async function GET" -e .next
 ./app/api/route.ts
 ```
+** This can be more powerful when you use it with "grep" command. **
+```bash
+$ cfind "export async function GET" | grep .ts
+./app/api/route.ts
+./.next/dev/types/routes.d.ts
+```
 
 ## Installation
 ``` bash
