@@ -1,7 +1,7 @@
 # Content-Finder-rs
 Extremely simple cli tool as if it were ubuntu build-in.
 This enables you to:
-- filter files which include query string you like.
+- filter files which include given query string in content.
 
 ## Usage
 ```bash
