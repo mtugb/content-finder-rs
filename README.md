@@ -28,10 +28,7 @@ $ cargo install --git <This Repository Url>
 ```
 
 ## philosophy
-This aims to be used as simple as `find` command (built-in cli app that allows you to find file with name that includes query).
-``` bash
-$ find .zip
-a.zip
-b.zip
-```
+It aims to be a user-friendly wrapper around `grep -rl`.
 
+$ grep -rl "query" .   # hard to remember
+$ cfind "query"        # simple
