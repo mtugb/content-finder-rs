@@ -24,8 +24,14 @@ $ cfind "export async function GET" | grep .ts
 
 ## Installation
 ``` bash
-$ cargo install --git <This Repository Url>
+$ cargo install --git https://github.com/mtugb/content-finder-rs
 ```
+Or, if you u don't want to make your dir dirty:
+``` bash
+$ git clone git@github.com:mtugb/content-finder-rs.git
+$ cargo run
+```
+to try it in limited scope.
 
 ## philosophy
 It aims to be a user-friendly wrapper around `grep -rl`.
