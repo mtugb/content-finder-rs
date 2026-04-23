@@ -1,7 +1,11 @@
 # Content-Finder-rs
-Extremely simple cli tool as if it were ubuntu build-in.
+`cfind` is an extremely simple cli tool as if it were ubuntu build-in.
 This enables you to:
 - filter files which include given query string in content.
+
+## Features
+- Multi-thread finding mechanism is ready.
+- Simple command: runnnig `cfind <query>` lets you find target files.
 
 ## Usage
 ```bash
